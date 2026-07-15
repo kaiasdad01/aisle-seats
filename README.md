@@ -59,5 +59,5 @@ If your API uses different field names, adjust `parse_seat_map` and/or `Seat.is_
 ## Tests
 
 ```bash
-python -m unittest discover -s tests -v
+PYTHONPATH=. python -m unittest discover -s tests -v
 ```
